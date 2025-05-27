@@ -21,13 +21,14 @@
 }
 
 .ctnd {
-    position: absolute;
+    position: relative;
     top: 70px;
     left: 0;
     width: 70%;
     padding: 80px 15% 0 15%;
     height: 100px;
     z-index: 0;
+    height: auto;
 }
 
 .hd h1:hover {
@@ -66,4 +67,56 @@
 
 .map:hover {
     cursor: pointer;
+}
+
+.mex {
+    width: 479px;
+    height: 326.66px;
+}
+
+#info {
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.video {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 40px 0;
+
+}
+
+.des-video-yt {
+    margin: 10px 0 10px 0;
+}
+
+footer {
+    margin: 100px 0 0 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 12px;
+}
+
+footer div {
+    width: 100%;
+    text-align: center;
+    background: rgb(62, 59, 77);
+    padding: 3px 0 3px 0;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 20px; /* tamaño más pequeño para móviles */
+    }
+
+    .mex {
+        width: 200px;
+        height: auto;
+    }
+
+    iframe {
+        width: 280px;
+        height: 157.5px;
+    }
 }
